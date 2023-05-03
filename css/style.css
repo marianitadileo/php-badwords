@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, rgba(255,190,219,1) 0%, rgba(140,193,255,1) 100%);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+input, textarea {
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:active {
+   background-color: lightskyblue;
+}
+
+
+
+

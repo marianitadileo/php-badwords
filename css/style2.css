@@ -1,0 +1,19 @@
+body {
+    background: radial-gradient(circle, rgba(255,190,219,1) 0%, rgba(140,193,255,1) 100%);
+    width: 95%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.numb {
+    color: lightseagreen;
+}
